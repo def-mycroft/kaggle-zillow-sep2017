@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from scipy.stats import ttest_ind as t_test
 import sqlite3
+db_path = r"C:\Users\dasen\Google Drive\SYNC TO PC\data998_database.sqlite3"
 
 
 def inspect_database(filepath=db_path):
